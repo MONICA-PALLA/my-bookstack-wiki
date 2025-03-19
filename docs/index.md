@@ -1,17 +1,43 @@
-# Welcome to MkDocs
+# Docker Commands Reference
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This page contains useful Docker commands with their descriptions.
 
-## Commands
+## 🔹 Docker Basics
+- `docker --version`  
+  Check the installed Docker version.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+- `docker info`  
+  Display system-wide information about Docker.
 
-## Project layout
+## 🔹 Working with Containers
+- `docker ps`  
+  Show running containers.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+- `docker ps -a`  
+  Show all containers (running & stopped).
+
+- `docker run -it ubuntu bash`  
+  Run an Ubuntu container interactively.
+
+## 🔹 Working with Images
+- `docker images`  
+  List all Docker images on the system.
+
+- `docker pull nginx`  
+  Download the latest `nginx` image from Docker Hub.
+
+- `docker rmi <image_id>`  
+  Remove an image.
+
+## 🔹 Networking
+- `docker network ls`  
+  List all Docker networks.
+
+- `docker network inspect bridge`  
+  Inspect the default bridge network.
+
+- `docker network create my_network`  
+  Create a custom network.
+
+---
+**More commands coming soon!**
