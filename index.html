@@ -16,7 +16,7 @@
     
     
       
-        <title>My BookStack Wiki</title>
+        <title>Docker Commands Reference</title>
       
     
     
@@ -58,7 +58,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#welcome-to-mkdocs" class="md-skip">
+        <a href="#docker-commands-reference" class="md-skip">
           Skip to content
         </a>
       
@@ -74,7 +74,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="My BookStack Wiki" class="md-header__button md-logo" aria-label="My BookStack Wiki" data-md-component="logo">
+    <a href="." title="Docker Commands Reference" class="md-header__button md-logo" aria-label="Docker Commands Reference" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -88,13 +88,13 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            My BookStack Wiki
+            Docker Commands Reference
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Welcome to MkDocs
+              Home
             
           </span>
         </div>
@@ -169,13 +169,13 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="My BookStack Wiki" class="md-nav__button md-logo" aria-label="My BookStack Wiki" data-md-component="logo">
+    <a href="." title="Docker Commands Reference" class="md-nav__button md-logo" aria-label="Docker Commands Reference" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
 
     </a>
-    My BookStack Wiki
+    Docker Commands Reference
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
@@ -200,7 +200,7 @@
           
   
   <span class="md-ellipsis">
-    Welcome to MkDocs
+    Home
     
   </span>
   
@@ -212,7 +212,7 @@
         
   
   <span class="md-ellipsis">
-    Welcome to MkDocs
+    Home
     
   </span>
   
@@ -235,18 +235,36 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#commands" class="md-nav__link">
+  <a href="#docker-basics" class="md-nav__link">
     <span class="md-ellipsis">
-      Commands
+      🔹 Docker Basics
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#project-layout" class="md-nav__link">
+  <a href="#working-with-containers" class="md-nav__link">
     <span class="md-ellipsis">
-      Project layout
+      🔹 Working with Containers
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-with-images" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔹 Working with Images
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#networking" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔹 Networking
     </span>
   </a>
   
@@ -256,6 +274,90 @@
   
 </nav>
       
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="basics.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Docker Basics
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="containers.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Docker Containers
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="images.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Docker Images
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="networking.md" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Docker Networking
+    
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -287,18 +389,36 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#commands" class="md-nav__link">
+  <a href="#docker-basics" class="md-nav__link">
     <span class="md-ellipsis">
-      Commands
+      🔹 Docker Basics
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#project-layout" class="md-nav__link">
+  <a href="#working-with-containers" class="md-nav__link">
     <span class="md-ellipsis">
-      Project layout
+      🔹 Working with Containers
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#working-with-images" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔹 Working with Images
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#networking" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔹 Networking
     </span>
   </a>
   
@@ -320,21 +440,66 @@
 
 
 
-<h1 id="welcome-to-mkdocs">Welcome to MkDocs</h1>
-<p>For full documentation visit <a href="https://www.mkdocs.org">mkdocs.org</a>.</p>
-<h2 id="commands">Commands</h2>
+<h1 id="docker-commands-reference">Docker Commands Reference</h1>
+<p>This page contains useful Docker commands with their descriptions.</p>
+<h2 id="docker-basics">🔹 Docker Basics</h2>
 <ul>
-<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
-<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
-<li><code>mkdocs build</code> - Build the documentation site.</li>
-<li><code>mkdocs -h</code> - Print help message and exit.</li>
+<li>
+<p><code>docker --version</code><br />
+  Check the installed Docker version.</p>
+</li>
+<li>
+<p><code>docker info</code><br />
+  Display system-wide information about Docker.</p>
+</li>
 </ul>
-<h2 id="project-layout">Project layout</h2>
-<pre><code>mkdocs.yml    # The configuration file.
-docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
-</code></pre>
+<h2 id="working-with-containers">🔹 Working with Containers</h2>
+<ul>
+<li>
+<p><code>docker ps</code><br />
+  Show running containers.</p>
+</li>
+<li>
+<p><code>docker ps -a</code><br />
+  Show all containers (running &amp; stopped).</p>
+</li>
+<li>
+<p><code>docker run -it ubuntu bash</code><br />
+  Run an Ubuntu container interactively.</p>
+</li>
+</ul>
+<h2 id="working-with-images">🔹 Working with Images</h2>
+<ul>
+<li>
+<p><code>docker images</code><br />
+  List all Docker images on the system.</p>
+</li>
+<li>
+<p><code>docker pull nginx</code><br />
+  Download the latest <code>nginx</code> image from Docker Hub.</p>
+</li>
+<li>
+<p><code>docker rmi &lt;image_id&gt;</code><br />
+  Remove an image.</p>
+</li>
+</ul>
+<h2 id="networking">🔹 Networking</h2>
+<ul>
+<li>
+<p><code>docker network ls</code><br />
+  List all Docker networks.</p>
+</li>
+<li>
+<p><code>docker network inspect bridge</code><br />
+  Inspect the default bridge network.</p>
+</li>
+<li>
+<p><code>docker network create my_network</code><br />
+  Create a custom network.</p>
+</li>
+</ul>
+<hr />
+<p><strong>More commands coming soon!</strong></p>
 
 
 
