@@ -464,15 +464,22 @@
   Show all containers (running &amp; stopped).</p>
 </li>
 <li>
-<p><code>docker run -it ubuntu bash</code><br />
-  Run an Ubuntu container interactively.</p>
+<p><code>docker run -it image_name</code><br />
+  Spin up a container.</p>
 </li>
 </ul>
 <h2 id="working-with-images">🔹 Working with Images</h2>
 <ul>
 <li>
-<p><code>docker images</code><br />
+<p><code>docker image build -t image_name .</code>
+  This command builds the docker image and it should run in the directory in which the Dockerfile is present  </p>
+</li>
+<li>
+<p><code>docker images</code>
   List all Docker images on the system.</p>
+</li>
+<li>
+<p><code>docker images</code>  </p>
 </li>
 <li>
 <p><code>docker pull nginx</code><br />
