@@ -16,12 +16,18 @@ This page contains useful Docker commands with their descriptions.
 - `docker ps -a`  
   Show all containers (running & stopped).
 
-- `docker run -it ubuntu bash`  
-  Run an Ubuntu container interactively.
+- `docker run -it image_name`  
+  Spin up a container.
 
 ## 🔹 Working with Images
-- `docker images`  
+
+- `docker image build -t image_name .`
+  This command builds the docker image and it should run in the directory in which the Dockerfile is present  
+
+- `docker images`
   List all Docker images on the system.
+
+- `docker images`  
 
 - `docker pull nginx`  
   Download the latest `nginx` image from Docker Hub.
